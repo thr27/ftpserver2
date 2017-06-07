@@ -10,10 +10,10 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/storage"
 	log "github.com/sirupsen/logrus"
-	"github.com/mindflavor/ftpserver2/ftp/fs"
-	"github.com/mindflavor/ftpserver2/ftp/fs/azure/azureBlob"
-	"github.com/mindflavor/ftpserver2/ftp/fs/azure/azureContainer"
-	"github.com/mindflavor/ftpserver2/identity"
+	"github.com/thr27/ftpserver2/ftp/fs"
+	"github.com/thr27/ftpserver2/ftp/fs/azure/azureBlob"
+	"github.com/thr27/ftpserver2/ftp/fs/azure/azureContainer"
+	"github.com/thr27/ftpserver2/identity"
 )
 
 type azureFS struct {

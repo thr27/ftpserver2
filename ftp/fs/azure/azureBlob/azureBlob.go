@@ -11,7 +11,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/Azure/azure-sdk-for-go/storage"
-	"github.com/mindflavor/ftpserver2/ftp/fs"
+	"github.com/thr27/ftpserver2/ftp/fs"
 )
 
 type azureBlob struct {

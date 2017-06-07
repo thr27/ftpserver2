@@ -10,7 +10,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/mindflavor/ftpserver2/ftp/fs"
+	"github.com/thr27/ftpserver2/ftp/fs"
 )
 
 type physicalFile struct {

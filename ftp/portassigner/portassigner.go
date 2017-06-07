@@ -7,7 +7,7 @@ import (
 	"net"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/mindflavor/goserializer"
+	"github.com/thr27/goserializer"
 )
 
 const noMorePorts = -1

@@ -11,11 +11,11 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/mindflavor/ftpserver2/ftp/fs"
-	"github.com/mindflavor/ftpserver2/ftp/portassigner"
-	"github.com/mindflavor/ftpserver2/ftp/session"
-	"github.com/mindflavor/ftpserver2/ftp/session/securableConn"
-	"github.com/mindflavor/goserializer"
+	"github.com/thr27/ftpserver2/ftp/fs"
+	"github.com/thr27/ftpserver2/ftp/portassigner"
+	"github.com/thr27/ftpserver2/ftp/session"
+	"github.com/thr27/ftpserver2/ftp/session/securableConn"
+	"github.com/thr27/goserializer"
 )
 
 const iNVALIDPORT = -1

@@ -9,7 +9,7 @@ import (
 	"net"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/mindflavor/ftpserver2/ftp/portassigner"
+	"github.com/thr27/ftpserver2/ftp/portassigner"
 )
 
 // SinkFunction is the function that will be called
