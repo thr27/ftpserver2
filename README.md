@@ -66,7 +66,7 @@ The main FTP server object can be called on its own in your project. Here, howev
 With this command you can download the code with all its references. You can also use it later to update to the latest source code:
 
 ```
-go get -u github.com/mindflavor/ftpserver2
+go get -u github.com/thr27/ftpserver2
 ```
 
 ### Build
@@ -74,7 +74,7 @@ go get -u github.com/mindflavor/ftpserver2
 To build the application use this code. The binary will be saved in the ```%GOPATH\bin``` folder (```$GOPATH``` in linux):
 
 ```
-go install github.com/mindflavor/ftpserver2
+go install github.com/thr27/ftpserver2
 ```
 
 ### Use

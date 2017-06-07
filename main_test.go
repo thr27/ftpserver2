@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mindflavor/ftpserver2/ftp"
+	"github.com/thr27/ftpserver2/ftp"
 	"github.com/stretchr/testify/assert"
 )
 

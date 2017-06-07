@@ -7,7 +7,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/mindflavor/ftpserver2/identity"
+	"github.com/thr27/ftpserver2/identity"
 )
 
 // File is the minimum interface needed to

@@ -14,10 +14,10 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/mindflavor/ftpserver2/ftp"
-	"github.com/mindflavor/ftpserver2/ftp/fs"
-	"github.com/mindflavor/ftpserver2/ftp/fs/azure"
-	"github.com/mindflavor/ftpserver2/ftp/fs/localFS"
+	"github.com/thr27/ftpserver2/ftp"
+	"github.com/thr27/ftpserver2/ftp/fs"
+	"github.com/thr27/ftpserver2/ftp/fs/azure"
+	"github.com/thr27/ftpserver2/ftp/fs/localFS"
 
 	"github.com/rifflock/lfshook"
 )
