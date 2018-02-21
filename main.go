@@ -16,7 +16,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/thr27/ftpserver2/ftp"
 	"github.com/thr27/ftpserver2/ftp/fs"
-	"github.com/thr27/ftpserver2/ftp/fs/azure"
+	// "github.com/thr27/ftpserver2/ftp/fs/azure"
 	"github.com/thr27/ftpserver2/ftp/fs/localFS"
 
 	"github.com/rifflock/lfshook"
@@ -91,11 +91,13 @@ func main() {
 			panic(err)
 		}
 	}
-
-	if *azureAccount != "" && *azureKey != "" {
-		log.WithFields(log.Fields{"account": *azureAccount}).Info("main::main initializating Azure blob storage backend")
-		fs, err = azureFS.New(*azureAccount, *azureKey)
-	} else {
+	/*
+		if *azureAccount != "" && *azureKey != "" {
+			log.WithFields(log.Fields{"account": *azureAccount}).Info("main::main initializating Azure blob storage backend")
+			fs, err = azureFS.New(*azureAccount, *azureKey)
+		} else
+	*/
+	{
 		log.WithFields(log.Fields{"localFSRoot": *localFSRoot}).Info("main::main initializating local fs backend")
 		fs, err = localFS.New(*localFSRoot)
 	}
